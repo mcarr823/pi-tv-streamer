@@ -5,6 +5,7 @@ This section will cover how to install some common streaming software, and/or ho
 The major hurdle with running media software in this kind of setup is usually navigation, since websites and desktops aren't made to be navigated with a remote control.
 - [Jellyfin](Jellyfin.md)
 - [Kodi/XBMC](Kodi.md)
+- [Streaming services](SlyGuy.md)
 
 ## Next Step
 

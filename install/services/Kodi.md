@@ -34,6 +34,8 @@ There isn't much needed here. Kodi works quite well out-of-the-box.
 
 You might want to take this opportunity to add any media sources or plugins to your kodi install, since it'll be easier to do that with a keyboard/mouse than later on with a remote.
 
+In particular, I recommend installing the [SlyGuy Kodi repository](SlyGuy.md), which contains addons for a wide variety of streaming services.
+
 Addons aside, the only thing you'll likely want to do post-install is to make it work with your remote control, if you're using one. But we'll get to that later.
 
 ## Next Step
