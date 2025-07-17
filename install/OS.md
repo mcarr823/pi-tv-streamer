@@ -9,6 +9,9 @@ Install the full desktop version. Not the lite version.
 * The lite version will work, but will require extra steps not covered in this guide.
 
 There is nothing special you need to do during setup. Just install the OS like normal and reboot.
+
+![Screenshot](screenshots/RaspberryPiOS.png)
+
 ## Ubuntu 24.04.1
 
 The latest desktop version of Ubuntu will also work, both on a Raspberry Pi or on another device.
@@ -16,6 +19,8 @@ The latest desktop version of Ubuntu will also work, both on a Raspberry Pi or o
 Install like normal. Setup your language, username, internet connection, etc. as appropriate.
 
 * Even though this is a media center PC, you should consider keeping the "Require my password to log in" checkbox ticked for now, just in case something goes wrong during setup. You can setup passwordless login after installation instead.
+
+![Screenshot](screenshots/Ubuntu.png)
 
 ## Other Operating Systems
 

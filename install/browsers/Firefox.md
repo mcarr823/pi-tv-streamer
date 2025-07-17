@@ -68,6 +68,8 @@ Open the pre-installed program called Main Menu Editor.
 
 Then go to Applications -> Internet, and click on New Item.
 
+![Screenshot](screenshots/MainMenuEditor.png)
+
 In the Launcher Properties window, give your website a name and add a command of
 
 `firefox -kiosk URL`
@@ -75,6 +77,8 @@ In the Launcher Properties window, give your website a name and add a command of
 For example:
 
 `firefox -kiosk https://www.crunchyroll.com`
+
+![Screenshot](screenshots/MainMenuAdd.png)
 
 The comment is optional.
 

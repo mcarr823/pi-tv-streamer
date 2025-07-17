@@ -26,6 +26,8 @@ On Kubuntu, or other operating systems with KDE Plasma by default, the session c
 
 Click on "Desktop Session: Plasma (X11)" to choose a different session, per the Raspberry Pi OS instructions above.
 
+![Screenshot](screenshots/KdeLoginScreen.png)
+
 ## Tada!
 
 If everything went well, you should now be greeted with a smart TV-like user interface.

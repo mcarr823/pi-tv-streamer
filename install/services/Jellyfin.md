@@ -44,6 +44,8 @@ Or, if your desktop environment supports it, you can simply search for Jellyfin 
 
 * If you install it this way, make sure you grab "Jellyfin Media Player", not one of the other packages such as "Jellyfin Server".
 
+![Screenshot](screenshots/JellyfinDiscover.png)
+
 </details>
 
 ## TV Mode
@@ -56,13 +58,23 @@ That is to put Jellyfin into TV mode, which will make it much easier to use with
 
 Click on the Menu icon up the top left side of the website/app.
 
+![Screenshot](screenshots/JellyfinSettings01.png)
+
 Click on Settings.
+
+![Screenshot](screenshots/JellyfinSettings02.png)
 
 Click on Display.
 
+![Screenshot](screenshots/JellyfinSettings03.png)
+
 Change the display mode from Auto to TV.
 
+![Screenshot](screenshots/JellyfinSettings04.png)
+
 Scroll down to the bottom of the page and click on Save.
+
+![Screenshot](screenshots/JellyfinSettings05.png)
 
 Afterwards, close and reopen the app/website for the change to take full effect.
 

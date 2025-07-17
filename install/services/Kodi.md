@@ -24,6 +24,8 @@ If so, run:
 
 Or, if your desktop environment supports it, you can simply search for Kodi in your operating system's "app store", such as KDE Discover.
 
+![Screenshot](screenshots/KodiDiscover.png)
+
 </details>
 
 ## Post-install
