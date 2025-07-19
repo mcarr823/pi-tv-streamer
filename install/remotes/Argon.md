@@ -36,6 +36,16 @@ Type "1" and press enter.
 
 It will install some packages and set things up for you.
 
+### Kodi
+
+Once the remote has been configured, open a terminal and run:
+
+```bash
+mkdir -p ~/.var/app/tv.kodi.Kodi/data/userdata/
+cp ~/.kodi/userdata/Lircmap.xml ~/.var/app/tv.kodi.Kodi/data/userdata/
+```
+
+That will make sure the remote will work with the flatpak version of Kodi.
 ## Other operating systems
 
 If you are using a Raspberry Pi, then the above instructions may still work.
