@@ -2,11 +2,13 @@
 
 ## Raspberry Pi OS
 
-To start with, install Raspberry Pi OS (64 bit) on your Raspberry Pi.
+To start with, install [Raspberry Pi OS](https://www.raspberrypi.com/software/operating-systems/) (64 bit) on your Raspberry Pi.
 
-Install the full desktop version. Not the lite version.
+Install the "Raspberry Pi OS with desktop" version, with or without the recommended software. Do not install the lite version.
 
 * The lite version will work, but will require extra steps not covered in this guide.
+
+* The 32-bit version might work (for now), but is not recommended, since an increasing number of platforms and pieces of software are becoming 64-bit only.
 
 There is nothing special you need to do during setup. Just install the OS like normal and reboot.
 
@@ -18,7 +20,7 @@ The latest desktop version of Ubuntu will also work, both on a Raspberry Pi or o
 
 Install like normal. Setup your language, username, internet connection, etc. as appropriate.
 
-* Even though this is a media center PC, you should consider keeping the "Require my password to log in" checkbox ticked for now, just in case something goes wrong during setup. You can setup passwordless login after installation instead.
+* Even though this is a media center PC, you should consider keeping the "Require my password to log in" checkbox ticked for now, just in case something goes wrong during setup and breaks the default DE. You can setup passwordless login after installation instead.
 
 ![Screenshot](screenshots/Ubuntu.png)
 
@@ -34,4 +36,4 @@ You can use other operating systems not based on Debian, but you'll need to figu
 
 ## Next Step
 
-Continue to [Desktop Environment](DE.md)
+Continue to [Flatpak setup](Flatpak.md)

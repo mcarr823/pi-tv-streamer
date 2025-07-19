@@ -8,7 +8,7 @@ Alternatively, you can follow the instructions below.
 
 ## Install repository
 
-Note that the below assumes you've already installed Kodi, and that it is NOT open.
+Note that the below assumes you've already installed Kodi, and that it is NOT running.
 
 Also note that the paths below are for the Flatpak version of Kodi, since that is the version detailed by this repository. The paths will be different for the Snap or Native versions, if you install one of those instead.
 
