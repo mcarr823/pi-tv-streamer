@@ -38,7 +38,7 @@ Assuming you followed the steps in the Desktop Apps section of this guide, you s
 
 If so, run:
 
-`flatpak install flathub com.github.iwalton3.jellyfin-media-player`
+`flatpak install -y flathub com.github.iwalton3.jellyfin-media-player`
 
 Or, if your desktop environment supports it, you can simply search for Jellyfin in your operating system's "app store", such as KDE Discover.
 

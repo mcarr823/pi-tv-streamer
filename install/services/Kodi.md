@@ -20,7 +20,7 @@ Assuming you followed the steps in the Desktop Apps section of this guide, you s
 
 If so, run:
 
-`flatpak install flathub tv.kodi.Kodi`
+`flatpak install -y flathub tv.kodi.Kodi`
 
 Or, if your desktop environment supports it, you can simply search for Kodi in your operating system's "app store", such as KDE Discover.
 

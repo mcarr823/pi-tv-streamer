@@ -20,11 +20,11 @@ Flathub [provides instructions](https://flathub.org/setup/Raspberry%20Pi%20OS) f
 
 In short, you should open a terminal and run
 
-`sudo apt install flatpak`
+`sudo apt install -y flatpak`
 
 to install flatpak, then
 
-`flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo`
+`flatpak --user remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo`
 
 to add Flathub to your list of repositories.
 
