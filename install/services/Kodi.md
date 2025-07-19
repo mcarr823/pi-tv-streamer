@@ -26,6 +26,8 @@ Or, if your desktop environment supports it, you can simply search for Kodi in y
 
 ![Screenshot](screenshots/KodiDiscover.png)
 
+* Warning! Some stores will install the Snap or Native version of Kodi instead of the flatpak version. This is fine, but it will mean that you need to make some changes during the below step (if you choose to install the SlyGuy repository), as those instructions only cover the flatpak version.
+
 </details>
 
 ## Post-install
