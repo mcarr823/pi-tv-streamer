@@ -2,6 +2,24 @@
 
 ## Raspberry Pi OS
 
+By default, the Raspberry Pi OS greeter (ie. the login screen) restricts you to a single desktop environment.
+
+We don't want to use the default desktop environment. We want to use Plasma Bigscreen.
+
+So we need to switch the default greeter with a different one.
+
+### Automatic
+
+Open a terminal and run:
+
+`sudo sed -i.bak 's/greeter-session=pi-greeter-labwc/greeter-session=lightdm-gtk-greeter/g' /etc/lightdm/lightdm.conf`
+
+This will update your lightdm.conf file and replace the custom Raspberry Pi greeter with the default LightDM one.
+
+It will also create a backup lightdm.conf.bak file.
+
+### Manually
+
 Open a terminal window and run either
 
 `sudo mousepad /etc/lightdm/lightdm.conf`
@@ -14,7 +32,7 @@ to edit the file in a command line text editor.
 
 In either case, search for the line
 
-`greeter-session=pi-greeter-wayfire`
+`greeter-session=pi-greeter-labwc`
 
 and change it to
 
