@@ -8,8 +8,8 @@ If you use self-hosted streaming services, however, then you're in luck. Those g
 
 ## Install some apps
 
-Assuming you've got flatpak/flathub setup per the earlier step in this repository, you can check the [services list](../services/README.md) for instructions on how to install some common streaming software.
+Assuming you've got flatpak/flathub setup per the earlier step in this repository, you can check the [services list](services/README.md) for instructions on how to install some common streaming software.
 
 ## Next Step
 
-Continue to [Browser Setup](browser/README.md)
+Continue to [Browser Setup](browsers/README.md)
