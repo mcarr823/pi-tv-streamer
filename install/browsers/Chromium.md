@@ -2,11 +2,15 @@
 
 To start with, open Chromium and perform any first-time setup required.
 
+## KWallet
+
 You might be asked about KWallet integration, now that KDE desktop environments (plasma bigscreen and its dependencies) have been installed.
 
 If you are prompted about KWallet, select "Classic blowfish encrypted file", leave the password empty, and continue.
 
 Or you can setup a password, if you want to. But this is a media player, and trying to enter passwords with a remote isn't fun.
+
+## PWAs
 
 Once that's done, browse to any websites you want to stream and install their PWAs.
 

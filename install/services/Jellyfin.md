@@ -6,7 +6,7 @@ The web version is suitable for cases where your videos are on a separate device
 
 eg. If you store videos on a NAS or home server which runs Jellyfin, but want to watch them from a Raspberry Pi.
 
-The native application is more suitable if you're watching videos from the same device which has them stored.
+The desktop application is more suitable if you're watching videos from the same device which has them stored.
 
 eg. If you download a video onto your desktop PC and watch it directly from there.
 
@@ -24,6 +24,8 @@ eg. http://192.168.1.100:8096
 
 Whatever the IP address is, access your self-hosted Jellyfin instance from the Raspberry Pi in your browser, then proceed to the "TV Mode" section further down this page.
 
+* Remember to create a shortcut or PWA! See the Browsers section for instructions on how to do this
+
 </details>
 
 ## Desktop Client
@@ -34,7 +36,7 @@ Jellyfin provides [several options](https://jellyfin.org/downloads/clients/) for
 
 In this case, the one we want is the "Jellyfin Media Player".
 
-Assuming you followed the steps in the Desktop Apps section of this guide, you should already have Flatpak/Flathub setup on your system.
+Assuming you followed the steps earlier in this guide, you should already have Flatpak/Flathub setup on your system.
 
 If so, run:
 
@@ -45,6 +47,8 @@ Or, if your desktop environment supports it, you can simply search for Jellyfin 
 * If you install it this way, make sure you grab "Jellyfin Media Player", not one of the other packages such as "Jellyfin Server".
 
 ![Screenshot](screenshots/JellyfinDiscover.png)
+
+* Warning! Some stores will install the Snap or Native version of Jellyfin instead of the flatpak version. This is fine, but you may need to figure some things out yourself during later steps, since the instructions in this repository were written for the Flatpak version.
 
 </details>
 

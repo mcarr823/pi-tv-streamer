@@ -8,7 +8,9 @@ Or you can just reboot, if you prefer.
 
 Either way, you should end up on the login screen.
 
-* You'll end up on the desktop instead if you have auto-login enabled. If that's the case, logout.
+* If you have auto-login enabled, then you'll end up on the desktop instead. If that's the case, logout.
+
+## Raspberry Pi OS
 
 From the login screen, click on the wrench icon up the top right side of the screen. It will provide you with a list of different desktop environments.
 
@@ -16,7 +18,7 @@ Choose Plasma (Wayland).
 
 Plasma Bigscreen (X11) will also work, if you prefer X11 over wayland.
 
-If you don't know what that means, just choose Plasma Bigscreen without X11.
+If you don't know what that means, just choose Plasma Bigscreen (Wayland).
 
 Once you've made your choice, login.
 

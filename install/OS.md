@@ -34,6 +34,12 @@ Something based on Debian, such as Ubuntu or Linux Mint, will make it easier to 
 
 You can use other operating systems not based on Debian, but you'll need to figure out some parts of this guide for yourself.
 
+## Boot your OS
+
+After installing your OS of choice, please boot/reboot the device and run the newly installed OS.
+
+Proceed to the next step after you've booted the target device and logged in.
+
 ## Next Step
 
 Continue to [Flatpak setup](Flatpak.md)

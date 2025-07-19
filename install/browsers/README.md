@@ -4,6 +4,8 @@ Some streaming services will not be possible to run through a desktop applicatio
 
 For those services, you will need to pick a browser and create desktop icons (tiles on the homescreen) to run those services.
 
+Using a web browser can also be desirable if you're streaming videos from a separate device, such as a NAS, and that device is running Kodi or Jellyfin.
+
 ## Pick A Browser
 
 Raspberry Pi OS comes with both Firefox and Chromium installed by default.
@@ -19,6 +21,14 @@ That being said, either browser will work. So pick your favorite and we'll conti
 - [Chromium](Chromium.md)
 
 - [Firefox](Firefox.md)
+
+## Configuring Different Websites
+
+Whichever browser you use, check the [services list](../services/README.md) for hints on how to make certain websites work better with this setup.
+
+This might include ways to make them perform better, or make them easier to navigate.
+
+At this point in time, the only "websites" listed are the web versions of Kodi and Jellyfin.
 
 ## Next Step
 

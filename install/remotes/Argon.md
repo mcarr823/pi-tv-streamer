@@ -2,7 +2,7 @@
 
 This section covers the Argon IR Remote.
 
-Depending on the store you buy it from, it might be called "Argon IR Remote for Argon ONE V2 and M.2 Cases".
+Depending on the store you buy it from, it might be called "Argon IR Remote for Argon ONE V2 and M.2 Cases" or something similar.
 
 ## Raspberry Pi OS
 
@@ -46,9 +46,13 @@ cp ~/.kodi/userdata/Lircmap.xml ~/.var/app/tv.kodi.Kodi/data/userdata/
 ```
 
 That will make sure the remote will work with the flatpak version of Kodi.
+
+### Jellyfin and other software/websites
+
+TODO
 ## Other operating systems
 
-If you are using a Raspberry Pi, then the above instructions may still work.
+If you are using a Raspberry Pi, then the above instructions may still work even without Raspberry Pi OS.
 
 If you are using a different device, however, then the Argon remote will likely require manual setup using LIRC.
 
@@ -120,6 +124,10 @@ begin remote
 end remote
 ```
 
-You should be able to use those configurations on any Linux operating system, including on non Raspberry Pi devices.
+You should be able to use those configurations on any Linux operating system, including on non Raspberry Pi devices, without needing the Argon software.
 
 In general this should involve installing lirc, then creating the two files above.
+
+## Next Step
+
+Back to [Remote Control list](README.md)

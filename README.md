@@ -22,6 +22,7 @@ The instructions in this repo will result in:
 
 - A Raspberry Pi (or other device) running [Plasma Bigscreen](https://plasma-bigscreen.org)
 - Desktop apps for streaming services (where possible)
+- PWAs for the web versions of other streaming services
 - A working remote control
 
 The goal is to have tiles on Plasma Bigscreen which look and act like app tiles on a smart TV.

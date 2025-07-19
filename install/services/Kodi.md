@@ -6,7 +6,7 @@ The web version is only suitable for cases where your videos are on a separate d
 
 eg. If you watch videos on a Raspberry Pi, but store them on a NAS or home server, and both devices run Kodi.
 
-The native application is suitable for either case. It doesn't matter if the videos are on your device or if they're hosted elsewhere, it'll work either way.
+The desktop application is suitable for either case. It doesn't matter if the videos are on your device or if they're hosted elsewhere, it'll work either way.
 
 ## Web Version
 
@@ -16,7 +16,7 @@ If you want to use the web version, check [Kodi's official documentation](https:
 
 <details>
 
-Assuming you followed the steps in the Desktop Apps section of this guide, you should already have Flatpak/Flathub setup on your system.
+Assuming you followed the steps earlier in this guide, you should already have Flatpak/Flathub setup on your system.
 
 If so, run:
 
@@ -26,7 +26,7 @@ Or, if your desktop environment supports it, you can simply search for Kodi in y
 
 ![Screenshot](screenshots/KodiDiscover.png)
 
-* Warning! Some stores will install the Snap or Native version of Kodi instead of the flatpak version. This is fine, but it will mean that you need to make some changes during the below step (if you choose to install the SlyGuy repository), as those instructions only cover the flatpak version.
+* Warning! Some stores will install the Snap or Native version of Kodi instead of the flatpak version. This is fine, but you may need to figure some things out yourself during later steps, since the instructions in this repository were written for the Flatpak version.
 
 </details>
 
