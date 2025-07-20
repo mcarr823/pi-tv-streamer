@@ -26,11 +26,17 @@ Find the config for your remote in the [LIRC remotes database](https://lirc-remo
 
 Download the file, then copy it to your LIRC config directory.
 
+eg. `cp 2wire.lircd.conf /etc/lirc/lircd.conf.d/`
+
 ### Start LIRC
 
 Start the LIRC daemon manually:
 
 `sudo systemctl start lircd`
+
+Or restart it, if lirc was already running prior to the config being added:
+
+`sudo systemctl restart lircd`
 
 Or just wait until you next reboot.
 

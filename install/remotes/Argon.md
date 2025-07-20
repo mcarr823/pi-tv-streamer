@@ -36,27 +36,32 @@ Type "1" and press enter.
 
 It will install some packages and set things up for you.
 
-### Kodi
+### Make it work with streaming programs
 
-Once the remote has been configured, open a terminal and run:
+You will want to do one of two opposing things here, depending on how you plan to use the remote.
+
+Argon installs a Kodi keymap by default. This is great _if you only want to use the remote with Kodi_, but it's a problem if you want to use it with other apps.
+
+This is because we need to install a global LIRC config in order to make the remote work with _other_ apps. And we can't have both a global config and a Kodi-specific config, otherwise they'll double up and send the same command to Kodi twice.
+
+So if you are only planning on using a remote with Kodi, you should run:
 
 ```bash
 mkdir -p ~/.var/app/tv.kodi.Kodi/data/userdata/
 cp ~/.kodi/userdata/Lircmap.xml ~/.var/app/tv.kodi.Kodi/data/userdata/
 ```
 
-That will make sure the remote will work with the flatpak version of Kodi.
+That will make the remote will work with the flatpak version of Kodi.
 
-### Jellyfin and other software/websites
+On the other hand, if you want to use the remote with other software, such as Jellyfin, you should follow the [LIRC setup guide](Lirc.md) in this repository (from the "Install XDoTool" step onwards).
 
-TODO
 ## Other operating systems
 
 If you are using a Raspberry Pi, then the above instructions may still work even without Raspberry Pi OS.
 
-If you are using a different device, however, then the Argon remote will likely require manual setup using LIRC.
+If you are using a different device, however, then the Argon remote will likely require [manual setup using LIRC](Lirc.md).
 
-### LIRC
+### LIRC config file
 
 The Argon software automatically creates a LIRC config file for Kodi in:
 
@@ -126,7 +131,9 @@ end remote
 
 You should be able to use those configurations on any Linux operating system, including on non Raspberry Pi devices, without needing the Argon software.
 
-In general this should involve installing lirc, then creating the two files above.
+In general this should involve [installing lirc](Lirc.md), then creating the two files above.
+
+* The first file is only needed if you plan on using Kodi exclusively. See the "Make it work with streaming programs" section above.
 
 ## Next Step
 
