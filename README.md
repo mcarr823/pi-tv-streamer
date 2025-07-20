@@ -2,6 +2,15 @@
 
 Pi TV Streamer is a set of instructions on how to setup a Raspberry Pi to look and act more like a smart TV.
 
+
+## Project Status
+
+The instructions in this repository are an ongoing work-in-progress.
+
+They are more or less complete, and can be followed to setup a functional media center.
+
+However, they need refinement, and will occasionally be updated with new services, screenshots, etc.
+
 ## Supported Devices
 
 These instructions were written with a Raspberry Pi 4 or 5 in mind.
