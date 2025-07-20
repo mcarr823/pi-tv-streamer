@@ -10,15 +10,16 @@ To setup your device, follow the below instructions in order.
 
 2. [Flatpak](Flatpak.md)
 
-3. [Desktop Environment](DE.md)
+3. [Wayland/X11](Wayland.md)
 
-4. [Login Screen](Greeter.md)
+4. [Desktop Environment](DE.md)
 
-5. [Desktop Apps](Desktop.md)
+5. [Login Screen](Greeter.md)
 
-6. [Web Browser](browsers/README.md)
+6. [Desktop Apps](Desktop.md)
 
-7. [Remote Control](remotes/README.md)
+7. [Web Browser](browsers/README.md)
 
-8. [Finish Setup](Restart.md)
+8. [Remote Control](remotes/README.md)
 
+9. [Finish Setup](Restart.md)

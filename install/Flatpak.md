@@ -46,4 +46,4 @@ Reboot now, then proceed to the next step.
 
 ## Next Step
 
-Continue to [Desktop Environment](DE.md)
+Continue to [Wayland/X11](Wayland.md)

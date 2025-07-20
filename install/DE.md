@@ -1,6 +1,6 @@
 # Desktop Environment
 
-Once flatpak is setup, the next step is to install the Plasma Bigscreen desktop environment.
+The next step is to install the Plasma Bigscreen desktop environment.
 
 ## Raspberry Pi OS
 
@@ -23,6 +23,8 @@ In addition to installing plasma-bigscreen, you'll also need to install kdeconne
 `sudo apt install plasma-bigscreen kdeconnect plasma-workspace-wayland`
 
 * The Kubuntu derivative of Ubuntu has kdeconnect install by default, but not the other two packages.
+
+* plasma-workspace-wayland is only needed if you plan on using Wayland, not X11. But it doesn't hurt to install this anyway, in case you change your mind later.
 
 ## Other Operating Systems
 

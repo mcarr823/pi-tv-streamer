@@ -14,11 +14,10 @@ Either way, you should end up on the login screen.
 
 From the login screen, click on the wrench icon up the top right side of the screen. It will provide you with a list of different desktop environments.
 
-Choose Plasma (Wayland).
 
-Plasma Bigscreen (X11) will also work, if you prefer X11 over wayland.
+Choose either Plasma Bigscreen (X11) or Plasma Bigscreen (Wayland) depending on which one you chose earlier in this guide.
 
-If you don't know what that means, just choose Plasma Bigscreen (Wayland).
+In short: if you want to use a remote, and you want to use it with programs other than just Kodi, choose X11. Otherwise, choose Wayland.
 
 Once you've made your choice, login.
 
