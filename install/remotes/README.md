@@ -6,6 +6,7 @@ However, they still need to be mapped in some way to make them actually useful.
 
 This is usually done by utilizing LIRC, or by installing software provided by the maker of the dongle/remote.
 
+- [General IR Remote Setup](Lirc.md)
 - [Argon Remote and Argon One cases](Argon.md)
 
 ## Next Step
