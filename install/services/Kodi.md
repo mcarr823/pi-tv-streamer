@@ -32,13 +32,17 @@ Or, if your desktop environment supports it, you can simply search for Kodi in y
 
 ## Post-install
 
-There isn't much needed here. Kodi works quite well out-of-the-box.
+### Media sources
 
-You might want to take this opportunity to add any media sources or plugins to your kodi install, since it'll be easier to do that with a keyboard/mouse than later on with a remote.
+Add any desired media sources or plugins to your Kodi installation and verify that they're accessible.
 
-In particular, I recommend installing the [SlyGuy Kodi repository](SlyGuy.md), which contains addons for a wide variety of streaming services.
+Some sources may require a username and password, or a URL, which will be easier to enter now with a keyboard.
 
-Addons aside, the only thing you'll likely want to do post-install is to make it work with your remote control, if you're using one. But we'll get to that later.
+### SlyGuy repository and addons
+
+I recommend installing the [SlyGuy Kodi repository](SlyGuy.md).
+
+It contains addons for a wide variety of streaming services, and makes for a streaming experience much more similar to an Android TV box in terms of streaming service availability.
 
 ## Next Step
 

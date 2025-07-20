@@ -52,11 +52,27 @@ Or, if your desktop environment supports it, you can simply search for Jellyfin 
 
 </details>
 
-## TV Mode
+## Post-install
 
-Regardless of how you install Jellyfin, there's one particular step you'll want to take.
+These actions can be taken at any time.
 
-That is to put Jellyfin into TV mode, which will make it much easier to use with arrow keys, gamepads, or even a remote control.
+But they're easier to do now, from a desktop, with a keyboard and mouse.
+
+### Media sources
+
+Add any desired media sources or plugins to your jellyfin installation and verify that they're accessible.
+
+Some sources may require a username and password, or a URL, which will be easier to enter now with a keyboard.
+
+### Fullscreen
+
+With Jellyfin open, press F11 to put it into fullscreen.
+
+Jellyfin will remember its previous state. So the next time you launch it (eg. with a remote, and thus no F11 key), it will already be in fullscreen by default.
+
+### TV Mode
+
+Putting Jellyfin into TV mode will give you a more TV-like user interface, and make it easier to use Jellyfin with arrow keys, gamepads, and remote controls.
 
 <details>
 
