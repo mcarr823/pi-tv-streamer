@@ -18,7 +18,7 @@ For Wayland, you currently need to use an application which handles LIRC command
 
 Install the LIRC package.
 
-`sudo apt install -y lirc`
+`sudo apt install -y lirc lirc-x`
 
 ### Setup remote
 
