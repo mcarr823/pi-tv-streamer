@@ -12,8 +12,6 @@ The terminal method should work across most desktop environments, whereas the GU
 
 ## Terminal method
 
-<Details>
-
 Open a terminal window and run:
 
 `cd ~/.local/share/applications`
@@ -58,11 +56,7 @@ This should result in a new menu entry being created for the given website, whic
 
 Repeat this process for each service you want to use.
 
-</Details>
-
 ## GUI method - Raspberry Pi OS
-
-<Details>
 
 Open the pre-installed program called Main Menu Editor.
 
@@ -87,8 +81,6 @@ You can also add an icon by clicking on the Image button on the left side of the
 Click on OK when you're done and that should be it. You'll have a new menu entry for that website which will open in fullscreen (kiosk mode) by default.
 
 * If you already have another browser window open, then the application might not open in fullscreen mode.
-
-</Details>
 
 ## GUI method - Other Desktop Environments
 

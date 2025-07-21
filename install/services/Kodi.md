@@ -14,8 +14,6 @@ If you want to use the web version, check [Kodi's official documentation](https:
 
 ## Desktop Version
 
-<details>
-
 Assuming you followed the steps earlier in this guide, you should already have Flatpak/Flathub setup on your system.
 
 If so, run:
@@ -27,8 +25,6 @@ Or, if your desktop environment supports it, you can simply search for Kodi in y
 ![Screenshot](screenshots/KodiDiscover.png)
 
 * Warning! Some stores will install the Snap or Native version of Kodi instead of the flatpak version. This is fine, but you may need to figure some things out yourself during later steps, since the instructions in this repository were written for the Flatpak version.
-
-</details>
 
 ## Post-install
 

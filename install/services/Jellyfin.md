@@ -12,8 +12,6 @@ eg. If you download a video onto your desktop PC and watch it directly from ther
 
 ## Web Version
 
-<details>
-
 There is no special setup required for the web version of Jellyfin to work.
 
 It will run by default when installed on a server or NAS.
@@ -26,11 +24,7 @@ Whatever the IP address is, access your self-hosted Jellyfin instance from the R
 
 * Remember to create a shortcut or PWA! See the Browsers section for instructions on how to do this
 
-</details>
-
 ## Desktop Client
-
-<details>
 
 Jellyfin provides [several options](https://jellyfin.org/downloads/clients/) for installing their desktop client.
 
@@ -49,8 +43,6 @@ Or, if your desktop environment supports it, you can simply search for Jellyfin 
 ![Screenshot](screenshots/JellyfinDiscover.png)
 
 * Warning! Some stores will install the Snap or Native version of Jellyfin instead of the flatpak version. This is fine, but you may need to figure some things out yourself during later steps, since the instructions in this repository were written for the Flatpak version.
-
-</details>
 
 ## Post-install
 
@@ -74,8 +66,6 @@ Jellyfin will remember its previous state. So the next time you launch it (eg. w
 
 Putting Jellyfin into TV mode will give you a more TV-like user interface, and make it easier to use Jellyfin with arrow keys, gamepads, and remote controls.
 
-<details>
-
 Click on the Menu icon up the top left side of the website/app.
 
 ![Screenshot](screenshots/JellyfinSettings01.png)
@@ -97,8 +87,6 @@ Scroll down to the bottom of the page and click on Save.
 ![Screenshot](screenshots/JellyfinSettings05.png)
 
 Afterwards, close and reopen the app/website for the change to take full effect.
-
-</details>
 
 ## Next Step
 
